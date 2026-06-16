@@ -1,12 +1,12 @@
-import java.util.*;
+
+import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int n2=n;
         int g1=0;
-        int g2=0;
-        int g3=0;
+        
         for(int i=1;i<4;i++){
         if(n>=7){
            g1=7;
